@@ -10,7 +10,7 @@
 
 # This code is contributed by BHAVYA JAIN 
 def lcs(X, Y, m, n): 
-    L = [[0 for x in xrange(n+1)] for x in xrange(m+1)] 
+    L = [[0 for x in range(n+1)] for x in range(m+1)] 
   
     # Following steps build L[m+1][n+1] in bottom up fashion. Note 
     # that L[i][j] contains length of LCS of X[0..i-1] and Y[0..j-1]  
@@ -51,7 +51,7 @@ def lcs(X, Y, m, n):
         else: 
             j -= 1
   
-    print "LCS of " + X + " and " + Y + " is " + "".join(lcs)  
+    print("LCS of " + X + " and " + Y + " is " + "".join(lcs))
   
 # Driver program 
 X = "FISH"
