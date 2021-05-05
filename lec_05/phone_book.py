@@ -5,11 +5,11 @@ phone_book = {
 
 
 def check_phone(name):
-  if phone_book.get(name):
-    print(phone_book.get(name))
-  else:
-    print("User not found")
-    pass
+    if phone_book.get(name):
+        print(phone_book.get(name))
+    else:
+        print("User not found")
+        pass
 
 check_phone("Alice")
 check_phone("Jenny")

@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void BinarySearch(int data_array[], int element, int len) {
+void binarySearch(int data_array[], int element, int len) {
     int low = 0;
     int high = len;
     while (low <= high) {
@@ -23,6 +23,6 @@ void BinarySearch(int data_array[], int element, int len) {
 int main() {
     int data_array[] = {1, 2, 3, 4, 5};
     int length = sizeof(data_array) / sizeof(int);
-    BinarySearch(data_array, 6, length);
+    binarySearch(data_array, 6, length);
     return 0;
 }
